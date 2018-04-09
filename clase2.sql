@@ -1,4 +1,5 @@
 2)
+
 CREATE TABLE films
 ( film_id INT(11) NOT NULL AUTO_INCREMENT,
   titulo VARCHAR(30) NOT NULL,
@@ -25,6 +26,7 @@ ALTER TABLE film_actor
   MODIFY film_id int(30) NOT NULL;
 
 4)
+
 ALTER TABLE film_actor ADD 
   CONSTRAINT fk_actor
     FOREIGN KEY (actor_id)
